@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Camera</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<link rel="apple-touch-icon" href="https://assets.codepen.io/141041/apple-icon.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://assets.codepen.io/141041/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://assets.codepen.io/141041/apple-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="167x167" href="https://assets.codepen.io/141041/apple-icon-167x167.png">
+
+<link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" href="https://assets.codepen.io/141041/apple-launch-1242x2688.png">
+<link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" href="https://assets.codepen.io/141041/apple-launch-828x1792.png">
+<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" href="https://assets.codepen.io/141041/apple-launch-1125x2436.png">
+<link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3)" href="https://assets.codepen.io/141041/apple-launch-1242x2208.png">
+<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="https://assets.codepen.io/141041/apple-launch-750x1334.png">
+<link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" href="https://assets.codepen.io/141041/apple-launch-2048x2732.png">
+<link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" href="https://assets.codepen.io/141041/apple-launch-1668x2388.png">
+<link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" href="https://assets.codepen.io/141041/apple-launch-1668x2224.png">
+<link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" href="https://assets.codepen.io/141041/apple-launch-1536x2048.png">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<meta name="apple-mobile-web-app-title" content="Camera"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.7.6/tailwind.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;display=swap'>
+
+  <script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+</head>
+<body>
+
+  <div id="app"></div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/blueimp-load-image/5.14.0/load-image.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/blueimp-load-image/5.14.0/load-image-scale.min.js'></script>
+
+  <script type="module">
+    import CodePenVueComponent from "./script.js";
+    new Vue(CodePenVueComponent).$mount('#app');
+  </script>
+</body>
+</html>
